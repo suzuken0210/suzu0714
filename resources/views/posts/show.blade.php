@@ -13,7 +13,7 @@
         <div class='content'>
             <div class='content_post'>
                 <h3>本文</h3>
-                <p class='boby'>{{ $post->boby}}</p>
+                <p class='body'>{{ $post->body}}</p>
             </div>
         </div>
          <div class='edit'>

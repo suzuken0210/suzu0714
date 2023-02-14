@@ -13,7 +13,7 @@ html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
             @foreach ($posts as $post)
             <div class='post'>
                     <a href="/posts/{{ $post->id }}"><h2 class='title'>{{ $post->title}}</h2></a>
-                    <p class='boby'>{{ $post->boby}}</p>
+                    <p class='body'>{{ $post->body}}</p>
             </div>
             @endforeach
         </div>

@@ -15,7 +15,7 @@
                <input type="text" name=post[title] placeholder="タイトル" value={{ old('post.title')}}>
                <a class='title__error' style="coler:red">{{ $errors->first('post.title') }}</a>
            </div>
-           <div class="boby">
+           <div class="body">
                <h2>Body</h2>
                <textarea name="post[body]" placeholder="今日も一日お疲れ様でした">{{old('post.body')}}</textarea>
                <p class="body__error" style="coler:red">{{ $errors->first('post.body') }}</p>
